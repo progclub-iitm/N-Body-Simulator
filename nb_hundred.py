@@ -26,7 +26,7 @@ class planet:
 #CLEAR ACCELERATION
 def clear_a(p):
     for i in range(N-1):
-        p[i].ax = p[i].ay = 0
+        p[i].ax = p[i].ay = 0.0
 
 #UPDATES x AND y ACCELERATIONS OF EACH PLANET IN EACH ITERATION 
 def set_a(p):
