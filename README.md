@@ -4,5 +4,8 @@ N-body simulation is a simulation of a dynamical system of particles, usually un
 
 Project aims to create an efficient 3D-simulator for n-body problem.
 
-## Dependencies 
+### Dependencies 
 
+```bash
+pip install pygame
+```
