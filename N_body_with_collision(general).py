@@ -93,7 +93,7 @@ while 1:
     for i in b:
         i.resetacc()
     for i in range(0,len(b)):           #loop calcs acc for all current bodies
-        fx=fy=0
+        fx=fy=0.0
         ipos=b[i].get_pos()
         im=b[i].get_mass()
         for j in range(i+1,len(b)):
